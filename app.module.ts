@@ -1,4 +1,4 @@
-import { Module } from "./module-decorator";
+import { Module } from "./decorators/module-decorator";
 import { UserModule } from "./user.module";
 import { UserService } from "./user.service";
 

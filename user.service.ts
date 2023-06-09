@@ -1,6 +1,6 @@
 import { CryptoService } from "./crypto.service";
-import { Inject } from "./inject-decorator";
-import { Injectable } from "./injectable-decorator";
+import { Inject } from "./decorators/inject-decorator";
+import { Injectable } from "./decorators/injectable-decorator";
 
 @Injectable()
 export class UserService {
